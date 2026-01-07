@@ -24,7 +24,10 @@ const skillColumns = [
 
 const Hero = ({ profileImage }: HeroProps) => {
   return (
-    <section className="py-12 bg-background">
+    <section className="py-12 bg-gradient-to-b from-background via-[hsl(42,55%,94%)] to-background relative overflow-hidden">
+      {/* Subtle gold radial accents */}
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-gradient-radial from-[hsl(45,60%,90%)]/40 to-transparent blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-gradient-radial from-[hsl(38,50%,88%)]/30 to-transparent blur-3xl pointer-events-none" />
       <div className="container-narrow">
         {/* Profile Image - Centered Circular */}
         <div className="flex justify-center mb-10">

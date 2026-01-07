@@ -27,7 +27,9 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-16 bg-background">
+    <section id="projects" className="py-16 bg-gradient-to-t from-[hsl(42,55%,94%)] via-background to-[hsl(45,60%,95%)] relative overflow-hidden">
+      <div className="absolute top-1/3 left-0 w-96 h-96 bg-gradient-radial from-[hsl(45,50%,88%)]/25 to-transparent blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-radial from-[hsl(38,45%,90%)]/20 to-transparent blur-3xl pointer-events-none" />
       <div className="container-wide">
         <h2 className="text-3xl font-bold text-center text-foreground mb-12">
           Featured Projects

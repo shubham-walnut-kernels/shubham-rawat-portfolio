@@ -52,7 +52,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-muted/30">
+    <section id="contact" className="py-20 bg-gradient-to-bl from-[hsl(45,60%,96%)] via-[hsl(42,55%,94%)] to-[hsl(40,50%,92%)] relative overflow-hidden">
+      <div className="absolute top-0 left-1/3 w-80 h-80 bg-gradient-radial from-[hsl(45,55%,88%)]/30 to-transparent blur-3xl pointer-events-none" />
+      <div className="absolute bottom-10 right-10 w-72 h-72 bg-gradient-radial from-[hsl(42,50%,86%)]/25 to-transparent blur-3xl pointer-events-none" />
       <div className="container-wide">
         <h2 className="section-title">Get in Touch</h2>
         <p className="text-lg text-muted-foreground mt-4 mb-10 max-w-2xl">

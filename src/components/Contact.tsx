@@ -99,7 +99,7 @@ const Contact = () => {
                 <div className="flex gap-3">
                   <Button variant="outline" size="sm" asChild>
                     <a
-                      href="https://linkedin.com/in/"
+                      href="https://linkedin.com/in/shubham-rawat-09b768297"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -109,7 +109,7 @@ const Contact = () => {
                   </Button>
                   <Button variant="outline" size="sm" asChild>
                     <a
-                      href="https://github.com/shubham318"
+                      href="https://github.com/shubham-walnut-kernels"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

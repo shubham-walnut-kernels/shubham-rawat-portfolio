@@ -100,7 +100,7 @@ const Contact = () => {
                   <Button variant="outline" size="sm" asChild>
                     <a
                       href="https://linkedin.com/in/shubham-rawat-09b768297"
-                      target="_blank"
+                      target="https://linkedin.com/in/shubham-rawat-09b768297"
                       rel="noopener noreferrer"
                     >
                       <Linkedin size={16} className="mr-1.5" />
@@ -110,7 +110,7 @@ const Contact = () => {
                   <Button variant="outline" size="sm" asChild>
                     <a
                       href="https://github.com/shubham-walnut-kernels"
-                      target="_blank"
+                      target="https://github.com/shubham-walnut-kernels"
                       rel="noopener noreferrer"
                     >
                       <ExternalLink size={16} className="mr-1.5" />

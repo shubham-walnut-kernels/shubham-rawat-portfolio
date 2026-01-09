@@ -4,23 +4,23 @@ import { Button } from '@/components/ui/button';
 const projects = [
   {
     title: 'Retail Sales Forecasting for Rossmann',
-    description: 'Predict daily sales across 1,115 stores using historical data with 1M+ records. Applied statistical validation and built ensemble models achieving 95.5% variance explained.',
-    techStack: ['Python', 'Scikit-learn', 'XGBoost', 'Optuna'],
-    liveUrl: 'https://github.com/shubham318',
+    description: 'Built a complete end-to-end pipeline for retail sales forecasting, leveraging XGBoost for high accuracy, Optuna for hyperparameter optimization, and SHAP for transparent model explainability and business insights.',
+    techStack: ['Python', 'Scikit-learn', 'XGBoost', 'Optuna', 'SHAP', 'LightGBM'],
+    liveUrl: 'https://shubham-walnut-kernels.github.io/Retail_Sales_Regression/',
     imagePosition: 'left' as const,
   },
   {
     title: 'Credit Card Default Prediction',
-    description: 'Built a production-style risk classification pipeline for predicting credit card defaults. Achieved 0.89 test ROC-AUC with 22% lift in default-class recall.',
-    techStack: ['Python', 'Pandas', 'Scikit-learn'],
-    liveUrl: '#',
+    description: 'Built a production-style risk classification pipeline for predicting credit card defaults using repayment history and credit utilization signals. Identified early-warning risk patterns from partial payments, non-payments, and high utilization segments.',
+    techStack: ['Python', 'Classification', 'Scikit-learn', 'Machine Learning'],
+    liveUrl: 'https://shubham-walnut-kernels.github.io/credit-default-prediction/',
     imagePosition: 'right' as const,
   },
   {
     title: 'Google Play Store App Analysis',
-    description: 'Analyzed large-scale app data to understand pricing strategies and user behavior. Applied NLP sentiment analysis and generated actionable KPIs.',
-    techStack: ['Python', 'Power BI', 'Tableau', 'SQL'],
-    liveUrl: '#',
+    description: 'Analyzed large-scale app data to understand pricing strategies and user behavior. Suggested to prioritize free, Everyone-rated apps in top install categories and launch affordable premium tiers and niche 17+ apps.',
+    techStack: ['Python', 'Power BI', 'Pandas', 'Matplotlib', 'Seaborn'],
+    liveUrl: 'https://shubham-walnut-kernels.github.io/Play-Store-App-Review-Analysis/',
     imagePosition: 'left' as const,
   },
 ];

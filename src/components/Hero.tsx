@@ -45,7 +45,7 @@ const Hero = ({ profileImage }: HeroProps) => {
         {/* Bio Text */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <p className="text-muted-foreground leading-relaxed">
-            I'm a data scientist based in New Delhi, India, passionate about transforming complex data 
+            I'm a data analyst based in New Delhi, India, passionate about transforming complex data 
             into actionable business insights. With expertise in statistical analysis, machine learning, 
             and data visualization, I help organizations make data-driven decisions that drive growth 
             and efficiency.

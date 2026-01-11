@@ -1,6 +1,22 @@
 import { ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
+import rossmannVideo from '../../Rossmann vid.mp4';
+import creditVideo from '../../credit vid.mp4';
+import playstoreVideo from '../../playstore video.wmv';
+
+const dashboardLinks = [
+  'https://app.thebricks.com/file/06f11552-8a69-45f6-8980-7bba8890d7bc',
+  'https://app.thebricks.com/file/d0f30c7d-9408-4d4a-89e3-93f04734c515',
+  'https://app.thebricks.com/file/de3b4daf-4a76-475c-8e65-0d9caff4ef49',
+];
+
+const previewVideos = [
+  rossmannVideo,
+  creditVideo,
+  playstoreVideo,
+];
+
 const projects = [
   {
     title: 'Retail Sales Forecasting for Rossmann',
@@ -52,33 +68,29 @@ const Projects = () => {
                   : 'md:flex-row'
               } gap-8 items-center`}
             >
-              {/* Visual Area */}
-              <div className="w-full md:w-2/5 aspect-video rounded-lg border border-border overflow-hidden bg-muted flex items-center justify-center">
-                {index === 0 && (
-                  <iframe
-                    src="https://app.thebricks.com/file/06f11552-8a69-45f6-8980-7bba8890d7bc"
-                    className="w-full h-full"
-                    frameBorder="0"
-                    loading="lazy"
-                    allowFullScreen
-                  />
-                )}
+              {/* Clickable Video Visual */}
+              <div className="w-full md:w-2/5 aspect-video rounded-lg border border-border overflow-hidden relative group">
+                <a
+                  href={dashboardLinks[index]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute inset-0 z-10"
+                />
 
-                {index === 1 && (
-                  <span className="text-muted-foreground text-sm">
-                    Project Visual
+                <video
+                  src={previewVideos[index]}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover"
+                />
+
+                <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                  <span className="text-white font-medium text-sm">
+                    Open Interactive Dashboard
                   </span>
-                )}
-
-                {index === 2 && (
-                  <iframe
-                    src="https://app.thebricks.com/file/de3b4daf-4a76-475c-8e65-0d9caff4ef49"
-                    className="w-full h-full"
-                    frameBorder="0"
-                    loading="lazy"
-                    allowFullScreen
-                  />
-                )}
+                </div>
               </div>
 
               {/* Content */}
@@ -90,7 +102,6 @@ const Projects = () => {
                   {project.description}
                 </p>
 
-                {/* Tech Stack */}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.techStack.map((tech) => (
                     <span

@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 import rossmannVideo from '../../Rossmann vid.mp4';
 import creditVideo from '../../credit vid.mp4';
-import playstoreVideo from '../../playstore video.wmv';
+import playstoreVideo from '../../playstore video.mp4';
 
 const dashboardLinks = [
   'https://app.thebricks.com/file/06f11552-8a69-45f6-8980-7bba8890d7bc',

@@ -22,7 +22,7 @@ const projects = [
     title: 'Retail Sales Forecasting for Rossmann',
     description:
       'Built a complete end-to-end pipeline for retail sales forecasting, leveraging XGBoost for high accuracy, Optuna for hyperparameter optimization, and SHAP for transparent model explainability and business insights.',
-    techStack: ['Python', 'Scikit-learn', 'XGBoost', 'Optuna', 'SHAP', 'LightGBM'],
+    techStack: ['Python', 'Scikit-learn', 'XGBoost', 'Optuna', 'SHAP', 'LightGBM', 'BricksAI', 'Time Series Split'],
     liveUrl: 'https://shubham-walnut-kernels.github.io/Retail_Sales_Regression/',
     imagePosition: 'left' as const,
   },
@@ -30,15 +30,15 @@ const projects = [
     title: 'Credit Card Default Prediction',
     description:
       'Built a production-style risk classification pipeline for predicting credit card defaults using repayment history and credit utilization signals. Identified early-warning risk patterns from partial payments, non-payments, and high utilization segments.',
-    techStack: ['Python', 'Classification', 'Scikit-learn', 'Machine Learning'],
+    techStack: ['Python', 'Classification', 'Scikit-learn', 'Machine Learning', 'ROC-AUC', 'Data labelling'],
     liveUrl: 'https://shubham-walnut-kernels.github.io/credit-default-prediction/',
     imagePosition: 'right' as const,
   },
   {
     title: 'Google Play Store App Analysis',
     description:
-      'Analyzed large-scale app data to understand pricing strategies and user behavior. Suggested to prioritize free, Everyone-rated apps in top install categories and launch affordable premium tiers and niche 17+ apps.',
-    techStack: ['Python', 'Power BI', 'Pandas', 'Matplotlib', 'Seaborn'],
+      'Analyzed large-scale app data to understand pricing strategies and user behavior. Suggested to prioritize free, everyone-rated apps in top install categories and launch affordable premium tiers and niche 17+ age apps.',
+    techStack: ['Python', 'EDA', 'Power BI', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'KPI', 'Scikit-learn'],
     liveUrl: 'https://shubham-walnut-kernels.github.io/Play-Store-App-Review-Analysis/',
     imagePosition: 'left' as const,
   },

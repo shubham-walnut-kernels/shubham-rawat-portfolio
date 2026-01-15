@@ -4,7 +4,7 @@ import About from '@/components/About';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
-import profilePhoto from '@/assets/profile-photo.PNG';
+import profilePhoto from '@/assets/profile-photo.png';
 
 const Index = () => {
   return (

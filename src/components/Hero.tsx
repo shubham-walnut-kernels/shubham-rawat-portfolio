@@ -8,7 +8,7 @@ const skillColumns = [
   {
     title: 'Analyzing',
     icon: BarChart3,
-    items: ['Statistical Analysis', 'Simple ML', 'Data Mining', 'Predictive Modeling'],
+    items: ['Statistical Analysis', 'Machine Learning', 'Data Mining', 'Predictive Modeling'],
   },
   {
     title: 'Developing',

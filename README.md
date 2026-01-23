@@ -65,6 +65,7 @@ GitHub Pages
 
 📂 Featured Projects
 🔹 Retail Sales Forecasting (Rossmann)
+
 👉 https://shubham-walnut-kernels.github.io/Retail_Sales_Regression/
 
 Objective: Predict daily retail sales to support inventory optimization and promotional planning.
@@ -82,6 +83,7 @@ Business insights focused on demand forecasting and profit maximization
 Skills: Time Series Analysis, Regression, Feature Engineering, Model Explainability
 
 🔹 Credit Card Default Prediction
+
 👉 https://shubham-walnut-kernels.github.io/credit-default-prediction/
 
 Objective: Build a credit risk classification model to identify potential defaults.
@@ -99,6 +101,7 @@ Focus on reducing credit losses while preserving low-risk growth
 Skills: Classification, Risk Analytics, Business-aligned Model Evaluation
 
 🔹 Google Play Store App Analysis
+
 👉 https://shubham-walnut-kernels.github.io/Play-Store-App-Review-Analysis/
 
 Objective: Analyze app performance to uncover user acquisition, monetization, and retention insights.

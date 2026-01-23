@@ -1,73 +1,164 @@
-# Welcome to your Lovable project
+📊 Data Analyst Portfolio – Shubham Rawat
 
-## Project info
+Welcome to my Data Analyst portfolio website, built to showcase end-to-end data projects, business-driven insights, and analytics problem-solving skills using real-world datasets.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔗 Live Portfolio:
+👉 https://shubham-walnut-kernels.github.io/shubham-rawat-portfolio/
 
-## How can I edit this code?
+👋 About Me
 
-There are several ways of editing your application.
+I am a Data Analyst with a strong foundation in statistics, applied machine learning, and business analytics. I specialize in transforming raw data into actionable insights through structured analysis, predictive modeling, and clear data storytelling.
 
-**Use Lovable**
+This portfolio highlights how I approach:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Business problem framing
 
-Changes made via Lovable will be committed automatically to this repo.
+Data cleaning & feature engineering
 
-**Use your preferred IDE**
+Exploratory data analysis (EDA)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Predictive modeling & evaluation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Dashboarding & stakeholder communication
 
-Follow these steps:
+🧠 Skills & Tools
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Programming & Data Handling
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Python (Pandas, NumPy, Scikit-learn)
 
-# Step 3: Install the necessary dependencies.
-npm i
+SQL
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Excel (advanced formulas, analysis)
 
-**Edit a file directly in GitHub**
+Machine Learning & Analytics
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Regression & Classification
 
-**Use GitHub Codespaces**
+Time Series Forecasting
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Feature Engineering
 
-## What technologies are used for this project?
+Model Evaluation (RMSE, AUC, Precision/Recall)
 
-This project is built with:
+Explainability (SHAP)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Visualization & BI
 
-## How can I deploy this project?
+Power BI
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Tableau
 
-## Can I connect a custom domain to my Lovable project?
+Matplotlib, Seaborn
 
-Yes, you can!
+KPI & Dashboard Design
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Workflow & Deployment
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Git & GitHub
+
+Jupyter / Google Colab
+
+Vite + React (portfolio deployment)
+
+GitHub Pages
+
+📂 Featured Projects
+🔹 Retail Sales Forecasting (Rossmann)
+👉 https://shubham-walnut-kernels.github.io/Retail_Sales_Regression/
+
+Objective: Predict daily retail sales to support inventory optimization and promotional planning.
+
+Highlights:
+
+Time-series-aware train/test split
+
+XGBoost regression with Optuna hyperparameter tuning
+
+SHAP analysis to explain drivers such as promotions, store type, and seasonality
+
+Business insights focused on demand forecasting and profit maximization
+
+Skills: Time Series Analysis, Regression, Feature Engineering, Model Explainability
+
+🔹 Credit Card Default Prediction
+👉 https://shubham-walnut-kernels.github.io/credit-default-prediction/
+
+Objective: Build a credit risk classification model to identify potential defaults.
+
+Highlights:
+
+Analysis of repayment behavior and credit utilization
+
+Cost-sensitive evaluation and threshold optimization
+
+Identification of early-warning risk patterns
+
+Focus on reducing credit losses while preserving low-risk growth
+
+Skills: Classification, Risk Analytics, Business-aligned Model Evaluation
+
+🔹 Google Play Store App Analysis
+👉 https://shubham-walnut-kernels.github.io/Play-Store-App-Review-Analysis/
+
+Objective: Analyze app performance to uncover user acquisition, monetization, and retention insights.
+
+Highlights:
+
+Exploratory data analysis on installs, ratings, reviews, pricing, and categories
+
+Interactive dashboards for stakeholder consumption
+
+Strategic insights on free vs paid apps, category dominance, and pricing tradeoffs
+
+Skills: EDA, Dashboarding, Market Segmentation, Business Analytics
+
+📊 Dashboards & Visuals
+
+Each project includes:
+
+Interactive dashboards (Power BI / BI-style)
+
+Clear KPIs with business interpretation
+
+Short visual previews embedded in the portfolio website
+
+GitHub repositories and notebooks for reproducibility
+
+🧩 Internship Experience
+
+I developed the Retail Sales Forecasting project as part of my Data Analyst internship, working on a real-world retail analytics problem. The project demonstrates my ability to apply machine learning models in a business context, interpret results, and communicate insights for operational decision-making.
+
+🎯 What This Portfolio Demonstrates
+
+Ability to work with real, messy datasets
+
+Strong focus on business impact, not just model accuracy
+
+End-to-end ownership of analytics workflows
+
+Clear communication through visuals and dashboards
+
+Practical application of machine learning in analytics roles
+
+📬 Feedback & Collaboration
+
+I actively welcome feedback on:
+
+Project clarity
+
+Dashboard design
+
+Business insights
+
+Portfolio structure
+
+If you’re a recruiter, hiring manager, or data professional, feel free to connect or share suggestions.
+
+🔗 Contact & Links
+
+Portfolio: https://shubham-walnut-kernels.github.io/shubham-rawat-portfolio/
+
+GitHub: https://github.com/shubham-walnut-kernels
+
+LinkedIn: www.linkedin.com/in/shubham-rawat-09b768297

@@ -88,7 +88,7 @@ const About = () => {
           <div className="bg-card rounded-xl border border-border p-6 shadow-soft">
             <h3 className="flex items-center gap-2 text-lg font-semibold text-foreground mb-6">
               <GraduationCap size={20} className="text-primary" />
-              Education
+              Experience & Education
             </h3>
             
             <div className="space-y-6">

@@ -50,6 +50,19 @@ const About = () => {
               I'm eager to apply my skills to real-world data challenges, turning complex datasets into actionable insights that drive business decisions.
             </p>
 
+            {/* Internship Experience */}
+            <div className="pt-4">
+              <h3 className="text-lg font-semibold text-foreground mb-3">
+                Internship Experience
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                During my Data Analyst internship at Softogrid Solution Private Limited, I worked on a real-world retail sales forecasting problem as part of an end-to-end analytics project. I analyzed store-level sales data to identify trends, seasonality, and promotional impact, supporting business decisions related to inventory planning and demand forecasting.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-3">
+                I built regression-based machine learning models using XGBoost, optimized model performance through Optuna-driven hyperparameter tuning, and applied SHAP analysis to interpret key drivers such as promotions, store type, and time-based patterns. The final solution translated model outputs into actionable insights for improving promotional strategy and operational efficiency.
+              </p>
+            </div>
+
             {/* Languages & Interests */}
             <div className="pt-6 flex flex-wrap gap-6">
               <div>

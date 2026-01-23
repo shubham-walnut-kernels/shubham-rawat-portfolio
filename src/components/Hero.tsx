@@ -35,7 +35,7 @@ const Hero = ({ profileImage }: HeroProps) => {
             <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-burgundy">
               <img
                 src={profileImage}
-                alt="Shubham Rawat - Data Scientist"
+                alt="Shubham Rawat - Data Analyst"
                 className="w-full h-full object-cover"
               />
             </div>

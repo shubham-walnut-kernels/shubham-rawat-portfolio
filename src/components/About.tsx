@@ -2,19 +2,24 @@ import { GraduationCap, Calendar, Gamepad2, Brain, Heart } from 'lucide-react';
 
 const education = [
   {
+    degree: 'Data Analyst Internship',
+    institution: 'Softogrid Solution Private Limited, Noida',
+    year: 'Aug 2025- Present',
+  },
+  {
     degree: 'B.Sc. in Statistics, Mathematics & Physics',
     institution: 'Shri Guru Ram Rai University, Dehradun',
-    year: '2024',
+    year: '2021-2024',
   },
   {
     degree: '12th Grade',
     institution: 'Delhi Kannada School, Delhi',
-    year: '2021',
+    year: '2020-2021',
   },
   {
     degree: '10th Grade',
     institution: "St. Crispin's Sr. Sec. School, Gurugram",
-    year: '2019',
+    year: '2018-2019',
   },
 ];
 
